@@ -36,6 +36,6 @@ public class MainActivity extends AppCompatActivity {
 
         String msg = prefs.getString("greeting","No greetings!");
         Toast toast = Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_LONG);
-        toast.show();
+        toast.show();//testing commiting to github
     }
 }
